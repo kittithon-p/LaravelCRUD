@@ -7,7 +7,7 @@ use App\Http\Controllers\Controller;
 
 class ApplicationController extends Controller
 {
-    public function __invoke()
+    public function index()
     {
         return view('application');
     }
